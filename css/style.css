@@ -1,0 +1,445 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #161c2d;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.blueBackground {
+    background-image: linear-gradient(to bottom right, #0B65C6 50%, #105BAA 100%);
+    height: 60rem;
+}
+
+.textWhite {
+    color: white;
+}
+
+.font {
+    font-size: 28px;
+}
+
+.navParent {
+    height: 63px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 80%;
+    height: 100%;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 15px 20px; */
+    /* align-items: center; */
+    opacity: 80%;
+}
+
+.logoParent {
+    width: 20%;
+    height: 100%;
+}
+
+.logoContent {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.navUl {
+    list-style: none;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+}
+
+.navUl ul {
+    display: flex;
+}
+
+.navUl ul li {
+    font-size: 14px;
+    padding-right: 35px;
+    color: white;
+    list-style: none;
+}
+
+.firstContentParentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+    /* border: 5px solid black; */
+}
+
+.firstContentParent {
+    /* border: 3px solid #570404; */
+    height: 450px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstContentTextParent {
+    font-size: 15px;
+    height: 10%;
+    width: 50%;
+    /* background-color: #570404; */
+}
+
+.firstContentImageParent {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    /* background-color: #114f0c; */
+}
+
+.firstContentImage img {
+    height: 550px;
+}
+
+.firstContentLinksParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.firstContentLinks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.firstContentLinks a {
+    /* background-color: black; */
+    padding-right: 25px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.firstContentLinks a img {
+    max-height: 50px;
+}
+
+.black {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+i {
+    font-size: 24px;
+    padding-right: 1rem;
+    color: #0B65C6;
+    opacity: 80%;
+}
+
+.logoParent i {
+    font: 50px;
+    padding-top: 5px;
+}
+
+hr {
+    width: 60%;
+    opacity: 80%;
+}
+
+h4 {
+    font-size: 1.3rem;
+    opacity: 80%;
+}
+
+.transactionSectionParent {
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TransactionSection {
+    width: 80%;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-between; */
+}
+
+.TransactionSection ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.TransactionSection ul li {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 20px;
+    padding: 30px;
+    padding-right: 100px;
+    /* display: flex;
+   
+    justify-content: center;
+    align-items: center; */
+}
+
+.accessParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.access {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+}
+
+
+/* tr:nth-child(even) {
+    background-color: #dddddd;
+} */
+
+.gettingStartedParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.gettingStarted {
+    text-align: center;
+    font-size: 17px;
+}
+
+.userSectionParent {
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.userSection {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.downloadButton {
+    width: 80%;
+}
+
+.downloadButtonParent {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.downloadButton {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadButton a {
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    background-color: #0B65C6;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.downloadLinkParent {
+    padding: 15px;
+    background: #f1f1f1;
+    margin-top: 40px;
+    margin-top: 40px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 80%;
+    height: 100%;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 15px 20px; */
+    /* align-items: center; */
+    opacity: 80%;
+}
+
+.downloadTextParent {
+    width: 30%;
+    height: 100%;
+}
+
+.downloadText {
+    padding-top: 10px;
+    width: 80%;
+    height: 100%;
+}
+
+
+/* .navUl {
+    list-style: none;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+
+.downloadLinks {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadLinks ul {
+    padding: 10px;
+    display: flex;
+    padding-top: 5px;
+}
+
+.downloadLinks ul li {
+    font-size: 14px;
+    padding-right: 35px;
+    color: white;
+    list-style: none;
+}
+
+
+/* 
+.firstContentParentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+    /* border: 5px solid black; */
+
+
+/* button {
+    font-size: 1rem;
+    color: white;
+    border: none;
+    background-color: #0B65C6;
+    padding: .7rem;
+    border-radius: .7rem;
+}
+
+.button {
+    padding-top: 2rem;
+}
+
+.btn {
+    background-color: black;
+}
+
+.pre_footer {
+    height: 10rem;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.get_started {
+    display: flex;
+    justify-content: center;
+}
+
+.get_started ul h4 {
+    text-align: center;
+}
+
+.pre_footer ul li {
+    display: inline-block;
+    padding-right: 3rem;
+    padding-top: 2rem;
+} */
+
+footer {
+    padding-top: 40px;
+    width: 100%;
+}
+
+.footer-ul {
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ul ul {
+    list-style: none;
+}
+
+.footer-ul ul li {
+    margin: 7px 0;
+}
+
+.footer-ul ul li h4 {
+    color: #161c2d;
+    font-size: 1.2rem;
+}
+
+.footer-ul ul li a {
+    text-decoration: none;
+    color: #7f8c8d;
+    font-size: 1rem;
+}
+
+.footer-ul ul li a:hover {
+    text-decoration: underline;
+}
+
+#sub_list {
+    padding-top: 30px;
+}
